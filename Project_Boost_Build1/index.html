@@ -11,6 +11,18 @@
     <script>
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Project_Boost_Build1.json", {onProgress: UnityProgress});
     </script>
+    <style>
+      body
+      {
+          color: #777;
+          font-family: "Avenir", Verdana, sans-serif;
+      }
+      #readme
+      {
+          margin-top: 700px;
+          margin-left: 300px;
+      }
+      </style>
   </head>
   <body>
     <div class="webgl-content">
@@ -21,6 +33,7 @@
         <div class="title">3_Project_Boost</div>
       </div>
     </div>
+    <div id="readme">
     <ul>
     <li> <strong>Objective:</strong>
         Get to the green platform on all three levels without colliding with the terrain.
@@ -30,5 +43,6 @@
         <li>Space: Thrust</li>
         <li>A/D: Rotate left/right</li>
     </ul>
+  </div>
   </body>
 </html>
